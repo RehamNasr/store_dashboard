@@ -1,0 +1,188 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color:#F5F5F5;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#main{
+    width: 800px;
+    height:700px;
+    box-shadow: 1px 1px 5px rgb(238, 217, 196);
+    margin: auto;
+    padding-left: 120px;
+    padding-top:50px;
+    margin-top: 120px;
+    border-radius: 10px;
+    display: flex;
+}
+#image{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background-color: rgb(229, 184, 138);
+     margin-top:200px;
+}
+img{
+    height:600px;
+    width: 250px;
+    margin-top: -350px;
+    margin-left: -60px;
+    cursor: pointer;
+
+
+}
+
+#upload{
+    width: 380px;
+    border: none;
+    background-color: rgb(239, 158, 59);
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+
+
+
+#part2{
+    margin-left: 100px;
+}
+h3{
+    display: inline;
+}
+
+#price{
+   display: inline-block;
+   margin-left:200px;
+   color: #1650C2
+}
+
+#circlecolor{
+    width:30px;
+    height: 30px;
+    background-color: #E7C0A7;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    padding: 2px solid black;
+}
+
+
+#rowcolorsize{
+display: flex
+}
+
+#size{
+    width:30px;
+    height: 30px;
+    background-color: #E7C0A7;
+    border-radius: 50%;
+ text-align: center;
+ display: inline-block;
+ margin-top: -20px;
+}
+
+#divsize{
+    margin-left: 150px;
+}
+
+#Description{
+    width: 400px;
+    min-height: 100px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+#Quantity{
+    display: flex;
+    width: 250px;
+}
+
+#q1{
+font-weight: bold;
+}
+#p1{
+    font-weight: bold;
+color: #1650C2;
+margin-left: 20px;
+}
+
+#p2{
+    font-weight: bold;
+color: #1650C2;
+margin-left: 250px;
+margin-left: 20px;
+
+}
+
+#close{
+    float: right;
+
+}
+#rowclose{
+    width: 10px;
+    height: 5px;
+     color: black;
+}
+
+#input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 12px;
+    border:none
+}
+
+select{
+margin-left: 20px;
+width: 150px;
+height: 40px;
+border-radius: 5px;
+font-size: 12px;
+border:none
+}
+
+input{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    border:none;
+    margin-top:20px;
+}
+
+#add{
+    width: 202px;
+    height: 40px;
+    border: none;
+    background-color:#1D1929;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -10px;
+    color:white
+}
+#cancel{
+
+        width: 202px;
+    height: 40px;
+
+        border: none;
+        background-color: #EFEFEF;
+        padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    margin-left:100px;
+}

@@ -1,0 +1,71 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color:#F5F5F5;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+#main{
+    width: 600px;
+    height:300px;
+    box-shadow: 1px 1px 5px rgb(244, 216, 117);
+    margin: auto;
+    padding-left: 200px;
+    padding-top: 100px;
+    margin-top: 200px;
+    border-radius: 10x;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    padding-left: 140px;
+    cursor: pointer;
+
+
+}
+
+#upload{
+    width: 380px;
+    border: none;
+    background-color: rgb(239, 158, 59);
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    padding-left: 20px;
+}
+#name{
+  padding: 10px;
+  width: 385px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border:none
+
+}
+#add{
+    width: 202px;
+    border: none;
+    background-color: rgb(239, 158, 59);
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+#cancel{
+
+        width: 202px;
+        border: none;
+        background-color: rgb(222, 190, 151);
+        padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,152 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    width: 100vw; 
+    background-color:#ff0707;
+
+}
+
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color:#F5F5F5;
+    display: flex;
+}
+
+#part1{
+width: 20%;
+height: 100vh;
+background-color: #1D1929;
+
+}
+
+#part2{
+    width: 70%;
+    height: 100vh;
+    background-color:#F5F5F5;
+    justify-content: space-around;
+    margin: auto;
+}
+#part21{
+    width: 100%;
+    height: 8%;
+    background-color:#1D1929;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 80px;
+ 
+}
+
+
+#part22{
+    width: 100%;
+    height: 60%;
+    background-color:#F5F5F5;
+    margin: auto;
+    padding-top: 30px;
+    margin-top: 30px;
+
+
+}
+
+#logo{
+    width:220px;
+    height:170px;
+
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+#row1{
+    padding:20x;
+    background-color: #F5F5F5;
+    width: 94%;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#row1 pre{
+    font-size: 18px;
+    color: rgb(4, 4, 4);
+}
+
+
+#row2{
+    padding:20x;
+    background-color:#1D1929;
+    width: 94%;
+    padding-left: 20px;
+    color:rgb(249, 249, 249);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+#row2:hover{
+    background-color:#2E394F
+}
+
+
+
+
+#searchdiv{
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 5px; */
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+#searchdiv pre{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#searchbutton{
+    width: 12%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 5px; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+table{
+width: 100%;
+background-color: #f5f5f5;
+border-radius: 10px;
+text-align: center;
+
+}
+
+#id1{
+    border-radius: 200%;
+    background-color:#1D1929;
+    color: #f5f5f5;
+    height: 40px;
+}
+
+#th1{
+    border-radius: 5px 0px 0px 5px;
+}
+#th2{
+    border-radius: 0px 5px 5px 0px;
+}
+table img{
+    width: 80px;
+    height: 70px;
+}
